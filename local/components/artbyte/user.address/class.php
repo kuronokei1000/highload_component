@@ -31,7 +31,7 @@ class UserAddress extends CBitrixComponent
     }
 
     /**
-     * Точка входа в компонент
+     * Логика компонента в одном месте
      */
     public function executeComponent() {
         $this->_checkModules();
